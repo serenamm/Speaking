@@ -1,0 +1,77 @@
+Rough speaker notes for the talk.
+
+Goals for the session:
+
+- tell story of AI in Toronto (AI is a silly term in my opinion that's just math!!) 
+- go over definitions of DS/ML/AI
+- really it's just math, not difficult to grasp for developers with a bit of effort
+- explain what it means to you in the industry
+But first, what is Mercatus? 
+
+Can anyone tell me who this man is?
+
+This is Geoffrey Hinton, when he was young. Now he looks like this. He's a U of T professor, and he's called the Godfather of deep learning. 
+
+Geoff had this idea. His idea was that computers could think like humans. Rather than a rule based system, his idea was that a computer could learn, like a human, and have intuition. He argued that computers could do this through what's called neural networks. Neural networks was Geoff's PhD work in AI (which under the umbrella of psych at the time) in 1972 at the University of Edinburgh, and apparently his supervisor told him every week that he should just give up. This idea was ludicrous, ridiculous, and would never work. But he kept going. He finished his PhD, and went to work at Carengie Mellon. He continued to work on neural networks.
+
+And he continued to be ridiculed. Apparently he would routinely be laughed out of conferences, and forced to sit on the outskirts of the room, sometimes not even being allowed in. It must've been pretty demoralizing. It was like, Mean Girls, but it was real life.
+
+But Geoff kept going. He was a socialist, living in the States, this was 1987 during a time when there were political conflicts between the Ragan administration and Central America. He didn't like that. He wanted to move. So he found somewhere that said, "Ok, you can do your crazy research. We'll fund you, and we won't bother you." 
+
+So he took a position at U of T, in the Computer Science department, despite never having taken a comp sci course. He actually came from psychology.
+
+It was actually in 1978, 9 years before his move to Canada, that Geoff came up with backpropagation for neural networks. 
+
+A neural network model works by taking in pairs of input and output data. That could be someone's shopping history and what they'll buy next. Backpropagation is the algorithm that lets the model do this update, and lets it learn from when it was wrong. 
+
+Now let's move back from 1978, through 1987, when Geoff moved to Canada, all the way to 2012. Not so long ago.
+
+2012 was the Cambrian Explosion of AI, and the explosion of Geoff's career. This is the year that people started to take him seriously. It only took 40 years. 
+
+In 2012, Geoff Hinton and his team submitted a submission (AlexNet) to ImageNet competition. This competition, which had been taking place since 2010, was a competition where academic teams would build models to classify images. There were many different tasks, something like 20, similar to something like classifying dog breeds. You can see examples of the images in the ImageNet competition here.
+
+Before 2012, an error rate of 25% was considered to be quite good. Then in 2012, Geoff's team submitted what's called AlexNet, which is a deep learning model, and achieved an error rate of 12%. This was huge. Other researchers had used neural networks, but not necessarily deep learning, let alone convolutional neural networks as was AlexNet. Geoff’s submission sent other researchers scrambling to reproduce the results.
+
+Suddenly he wasn't being laughed out of conferences, he was invited to them. As the keynote. 
+
+Toronto became known as the place to be, thanks to Geoff.
+
+I'm telling Geoff's story as a way to illustrate that Toronto is a great place for this field. The 2012 Imagenet results triggered the AI explosion that we're living through today. And it happened because of a research group in Toronto.
+
+So to reiterate, the, arguably, most famous person in the industry calls Toronto his home. U of T is a very strong research institute, they attract top talent, and the government is activity working to make Toronto a hub for AI. There's AI and ML-related meetup events every day of the week, the meetup market is saturated. And it's a great thing.
+
+I hope this sets the stage as to why Toronto is a great place to be for AI. Let's talk a bit about what data science, machine learning, and AI are. The terms are all at once very new, so ill-defined, but evolving very quickly. 
+
+Maybe telling my story will help. I had no idea what a data scientist was, until about 1 year into my Master's. I had always said in undergrad that I didn't know what to do with my math degree, but I knew I wanted a job where I could do mathematical modelling. I'd been saying this for 3 years without really knowing what I meant. I just kept saying there must be some job out there that requires math skills. But I had no idea what. Then I learned that "data scientist" exists. 
+
+It's sort of a joke among people who work in the industry that a data scientist is something that you work towards becoming your entire academic career, but you have no idea that that's what it’s called. And that's changing. When I was in undergrad, there was no "data science or analytics" program. It was just math, comp sci, biology, some sort of quantitative field where you use data. Now the joke doesn't even make sense anymore. Now kids will go into undergrad knowing they want to work in AI when they graduate. Even 7 years ago, that just didn't make any sense. The field, and these definitions, have evolved very, very quickly.
+
+
+So I found this nice image online. Let’s go through these one by one. 
+
+This makes it more concrete. But honestly I'm not sure what the last one means. And not every data scientist uses machine learning nowadays. But that's because the term is so broad.
+
+So quite often this model is a machine learning model.
+
+So while every data scientist may have different job requirements, there is a specific data science workflow that most every data scientist follows.
+
+- Python or R
+- read in dataset using pandas
+- exploratory data analysis: look for outliers, mean of the data, etc
+- figure out what's interesting, or think about the business question
+- build a model
+- evaluate the model
+- repeat
+
+Essentially, a data scientist works with data, looks at it, tries to find out of there's anything interesting in, and tries to build a mathematical model to capture what's going on. And quite often, this model that is built is a machine learning.
+ 
+But ML isn't the only type of modelling you can do.
+
+AI vs Marketing Hype
+
+I actually dislike the term "AI". It's just math. 
+
+In the 90s the question was is your company an internet company? In the 2000s, it was, is your company a mobile company? Soon, it'll be, is your company an AI company? 
+
+
+
